@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import { useRef } from 'react/cjs/react.development'
+import React, { useState, useRef } from 'react'
 
 function DragNDrop({ data }) {
   const [list, setList] = useState(data)
